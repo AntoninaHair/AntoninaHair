@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
+body {
+    background-image: url('background.jpg'); /* Файл background.jpg в той же папке */
+    background-size: cover; /* Растягивает фон на всю страницу */
+    background-position: center;
+    background-attachment: fixed; /* Фиксированный фон при прокрутке */
+}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,7 +52,4 @@
     <script src="script.js"></script>
 
 </body>
-body {
-    background-color: #f0f0f0; /* Светло-серый фон */
-}
 </html>
