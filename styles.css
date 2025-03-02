@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 body {
-    background-image: url('background.jpg'); /* Файл background.jpg в той же папке */
+    background-image: url('background1.jpg'); /* Файл background.jpg в той же папке */
     background-size: cover; /* Растягивает фон на всю страницу */
     background-position: center;
     background-attachment: fixed; /* Фиксированный фон при прокрутке */
